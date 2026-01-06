@@ -1,0 +1,891 @@
+2026-01-06 13:52:50,676 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-06 13:52:50,721 | INFO | SEARCH returned 1 results
+2026-01-06 14:02:14,994 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-06 14:02:15,021 | INFO | SEARCH returned 1 results
+2026-01-06 14:02:34,734 | INFO | SEARCH called | query='' | category='EDUCATION'
+2026-01-06 14:02:34,742 | INFO | SEARCH returned 20 results
+2026-01-06 14:02:57,847 | INFO | COMPARE called
+2026-01-06 14:02:57,847 | INFO | Apps received: ['Learn English with Wlingua', 'Ai La Trieu Phu - ALTP Free', 'Learn Japanese, Korean, Chinese Offline & Free']
+2026-01-06 14:02:57,848 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:02:57,865 | INFO | Processing app | name=Learn English with Wlingua | mode=FULL
+2026-01-06 14:02:57,866 | INFO | Score calculated | app=Learn English with Wlingua | score=5.18
+2026-01-06 14:02:57,867 | INFO | Processing app | name=Ai La Trieu Phu - ALTP Free | mode=FULL
+2026-01-06 14:02:57,868 | INFO | Score calculated | app=Ai La Trieu Phu - ALTP Free | score=5.15
+2026-01-06 14:02:57,868 | INFO | Processing app | name=Learn Japanese, Korean, Chinese Offline & Free | mode=FULL
+2026-01-06 14:02:57,871 | INFO | Score calculated | app=Learn Japanese, Korean, Chinese Offline & Free | score=5.53
+2026-01-06 14:02:57,874 | INFO | Winner selected: Learn Japanese, Korean, Chinese Offline & Free
+2026-01-06 14:02:57,886 | INFO | ANALYTICS called
+2026-01-06 14:03:02,190 | INFO | COMPARE called
+2026-01-06 14:03:02,191 | INFO | Apps received: ['Learn English with Wlingua', 'Ai La Trieu Phu - ALTP Free', 'Learn Japanese, Korean, Chinese Offline & Free']
+2026-01-06 14:03:02,191 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:03:02,198 | INFO | Processing app | name=Learn English with Wlingua | mode=FULL
+2026-01-06 14:03:02,205 | INFO | Score calculated | app=Learn English with Wlingua | score=5.18
+2026-01-06 14:03:02,207 | INFO | Processing app | name=Ai La Trieu Phu - ALTP Free | mode=FULL
+2026-01-06 14:03:02,209 | INFO | Score calculated | app=Ai La Trieu Phu - ALTP Free | score=5.15
+2026-01-06 14:03:02,217 | INFO | Processing app | name=Learn Japanese, Korean, Chinese Offline & Free | mode=FULL
+2026-01-06 14:03:02,218 | INFO | Score calculated | app=Learn Japanese, Korean, Chinese Offline & Free | score=5.53
+2026-01-06 14:03:02,218 | INFO | Winner selected: Learn Japanese, Korean, Chinese Offline & Free
+2026-01-06 14:03:02,226 | INFO | ANALYTICS called
+2026-01-06 14:04:35,560 | INFO | COMPARE called
+2026-01-06 14:04:35,560 | INFO | Apps received: ['Learn English with Wlingua', 'Ai La Trieu Phu - ALTP Free', 'Learn Japanese, Korean, Chinese Offline & Free']
+2026-01-06 14:04:35,561 | INFO | Preferences: {'rating': 5, 'price': 8, 'featureRichness': 9, 'easeOfUse': 9, 'performance': 9, 'serviceIntegration': 7, 'customization': 9, 'supportQuality': 9, 'privacy': 9}
+2026-01-06 14:04:35,814 | INFO | Processing app | name=Learn English with Wlingua | mode=FULL
+2026-01-06 14:04:35,816 | INFO | Score calculated | app=Learn English with Wlingua | score=5.53
+2026-01-06 14:04:35,823 | INFO | Processing app | name=Ai La Trieu Phu - ALTP Free | mode=FULL
+2026-01-06 14:04:35,826 | INFO | Score calculated | app=Ai La Trieu Phu - ALTP Free | score=5.51
+2026-01-06 14:04:35,827 | INFO | Processing app | name=Learn Japanese, Korean, Chinese Offline & Free | mode=FULL
+2026-01-06 14:04:35,829 | INFO | Score calculated | app=Learn Japanese, Korean, Chinese Offline & Free | score=5.91
+2026-01-06 14:04:35,830 | INFO | Winner selected: Learn Japanese, Korean, Chinese Offline & Free
+2026-01-06 14:04:35,845 | INFO | ANALYTICS called
+2026-01-06 14:05:02,506 | INFO | COMPARE called
+2026-01-06 14:05:02,507 | INFO | Apps received: ['Learn English with Wlingua', 'Ai La Trieu Phu - ALTP Free', 'Learn Japanese, Korean, Chinese Offline & Free']
+2026-01-06 14:05:02,507 | INFO | Preferences: {'rating': 5, 'price': 8, 'featureRichness': 9, 'easeOfUse': 9, 'performance': 9, 'serviceIntegration': 7, 'customization': 9, 'supportQuality': 9, 'privacy': 9}
+2026-01-06 14:05:02,633 | INFO | Processing app | name=Learn English with Wlingua | mode=FULL
+2026-01-06 14:05:02,633 | INFO | Score calculated | app=Learn English with Wlingua | score=5.53
+2026-01-06 14:05:02,633 | INFO | Processing app | name=Ai La Trieu Phu - ALTP Free | mode=FULL
+2026-01-06 14:05:02,636 | INFO | Score calculated | app=Ai La Trieu Phu - ALTP Free | score=5.51
+2026-01-06 14:05:02,636 | INFO | Processing app | name=Learn Japanese, Korean, Chinese Offline & Free | mode=FULL
+2026-01-06 14:05:02,636 | INFO | Score calculated | app=Learn Japanese, Korean, Chinese Offline & Free | score=5.91
+2026-01-06 14:05:02,637 | INFO | Winner selected: Learn Japanese, Korean, Chinese Offline & Free
+2026-01-06 14:05:02,646 | INFO | ANALYTICS called
+2026-01-06 14:05:22,113 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-06 14:05:22,162 | INFO | SEARCH returned 1 results
+2026-01-06 14:05:39,909 | INFO | SEARCH called | query='' | category='COMMUNICATION'
+2026-01-06 14:05:39,917 | INFO | SEARCH returned 20 results
+2026-01-06 14:06:40,565 | INFO | COMPARE called
+2026-01-06 14:06:40,567 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free']
+2026-01-06 14:06:40,569 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:06:40,576 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 14:06:40,577 | INFO | Score calculated | app=WhatsApp Messenger | score=5.8
+2026-01-06 14:06:40,577 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 14:06:40,578 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.43
+2026-01-06 14:06:40,578 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 14:06:40,585 | INFO | ANALYTICS called
+2026-01-06 14:08:43,099 | INFO | COMPARE called
+2026-01-06 14:08:43,099 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free']
+2026-01-06 14:08:43,100 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:08:43,549 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 14:08:43,552 | INFO | Score calculated | app=WhatsApp Messenger | score=5.8
+2026-01-06 14:08:43,557 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 14:08:43,567 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.43
+2026-01-06 14:08:43,576 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 14:08:43,635 | INFO | ANALYTICS called
+2026-01-06 14:09:11,371 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-06 14:09:11,503 | INFO | SEARCH returned 1 results
+2026-01-06 14:09:37,826 | INFO | SEARCH called | query='' | category='ART_AND_DESIGN'
+2026-01-06 14:09:37,828 | INFO | SEARCH returned 20 results
+2026-01-06 14:09:50,538 | INFO | COMPARE called
+2026-01-06 14:09:50,539 | INFO | Apps received: ['Photo Editor & Candy Camera & Grid & ScrapBook', 'Coloring book moana']
+2026-01-06 14:09:50,539 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:09:50,542 | INFO | Processing app | name=Photo Editor & Candy Camera & Grid & ScrapBook | mode=FULL
+2026-01-06 14:09:50,542 | INFO | Score calculated | app=Photo Editor & Candy Camera & Grid & ScrapBook | score=4.79
+2026-01-06 14:09:50,544 | INFO | Processing app | name=Coloring book moana | mode=FULL
+2026-01-06 14:09:50,545 | INFO | Score calculated | app=Coloring book moana | score=4.77
+2026-01-06 14:09:50,545 | INFO | Winner selected: Photo Editor & Candy Camera & Grid & ScrapBook
+2026-01-06 14:09:50,554 | INFO | ANALYTICS called
+2026-01-06 14:11:13,646 | INFO | COMPARE called
+2026-01-06 14:11:13,646 | INFO | Apps received: ['Photo Editor & Candy Camera & Grid & ScrapBook', 'Coloring book moana']
+2026-01-06 14:11:13,646 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:11:13,657 | INFO | Processing app | name=Photo Editor & Candy Camera & Grid & ScrapBook | mode=FULL
+2026-01-06 14:11:13,659 | INFO | Score calculated | app=Photo Editor & Candy Camera & Grid & ScrapBook | score=4.79
+2026-01-06 14:11:13,661 | INFO | Processing app | name=Coloring book moana | mode=FULL
+2026-01-06 14:11:13,661 | INFO | Score calculated | app=Coloring book moana | score=4.77
+2026-01-06 14:11:13,661 | INFO | Winner selected: Photo Editor & Candy Camera & Grid & ScrapBook
+2026-01-06 14:11:13,675 | INFO | ANALYTICS called
+2026-01-06 14:16:26,173 | INFO | COMPARE called
+2026-01-06 14:16:26,178 | INFO | Apps received: ['Photo Editor & Candy Camera & Grid & ScrapBook', 'Coloring book moana']
+2026-01-06 14:16:26,179 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:16:26,209 | INFO | Processing app | name=Photo Editor & Candy Camera & Grid & ScrapBook | mode=FULL
+2026-01-06 14:16:26,210 | INFO | Score calculated | app=Photo Editor & Candy Camera & Grid & ScrapBook | score=4.79
+2026-01-06 14:16:26,210 | INFO | Processing app | name=Coloring book moana | mode=FULL
+2026-01-06 14:16:26,211 | INFO | Score calculated | app=Coloring book moana | score=4.77
+2026-01-06 14:16:26,211 | INFO | Winner selected: Photo Editor & Candy Camera & Grid & ScrapBook
+2026-01-06 14:16:26,232 | INFO | ANALYTICS called
+2026-01-06 14:16:27,283 | INFO | COMPARE called
+2026-01-06 14:16:27,283 | INFO | Apps received: ['Photo Editor & Candy Camera & Grid & ScrapBook', 'Coloring book moana']
+2026-01-06 14:16:27,283 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:16:27,287 | INFO | Processing app | name=Photo Editor & Candy Camera & Grid & ScrapBook | mode=FULL
+2026-01-06 14:16:27,288 | INFO | Score calculated | app=Photo Editor & Candy Camera & Grid & ScrapBook | score=4.79
+2026-01-06 14:16:27,289 | INFO | Processing app | name=Coloring book moana | mode=FULL
+2026-01-06 14:16:27,293 | INFO | Score calculated | app=Coloring book moana | score=4.77
+2026-01-06 14:16:27,296 | INFO | Winner selected: Photo Editor & Candy Camera & Grid & ScrapBook
+2026-01-06 14:16:27,329 | INFO | ANALYTICS called
+2026-01-06 14:16:27,658 | INFO | COMPARE called
+2026-01-06 14:16:27,658 | INFO | Apps received: ['Photo Editor & Candy Camera & Grid & ScrapBook', 'Coloring book moana']
+2026-01-06 14:16:27,658 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:16:27,663 | INFO | Processing app | name=Photo Editor & Candy Camera & Grid & ScrapBook | mode=FULL
+2026-01-06 14:16:27,663 | INFO | Score calculated | app=Photo Editor & Candy Camera & Grid & ScrapBook | score=4.79
+2026-01-06 14:16:27,663 | INFO | Processing app | name=Coloring book moana | mode=FULL
+2026-01-06 14:16:27,665 | INFO | Score calculated | app=Coloring book moana | score=4.77
+2026-01-06 14:16:27,667 | INFO | Winner selected: Photo Editor & Candy Camera & Grid & ScrapBook
+2026-01-06 14:16:27,691 | INFO | ANALYTICS called
+2026-01-06 14:16:27,992 | INFO | COMPARE called
+2026-01-06 14:16:27,992 | INFO | Apps received: ['Photo Editor & Candy Camera & Grid & ScrapBook', 'Coloring book moana']
+2026-01-06 14:16:27,993 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:16:27,998 | INFO | Processing app | name=Photo Editor & Candy Camera & Grid & ScrapBook | mode=FULL
+2026-01-06 14:16:28,006 | INFO | Score calculated | app=Photo Editor & Candy Camera & Grid & ScrapBook | score=4.79
+2026-01-06 14:16:28,010 | INFO | Processing app | name=Coloring book moana | mode=FULL
+2026-01-06 14:16:28,011 | INFO | Score calculated | app=Coloring book moana | score=4.77
+2026-01-06 14:16:28,012 | INFO | Winner selected: Photo Editor & Candy Camera & Grid & ScrapBook
+2026-01-06 14:16:28,027 | INFO | ANALYTICS called
+2026-01-06 14:16:28,164 | INFO | COMPARE called
+2026-01-06 14:16:28,169 | INFO | Apps received: ['Photo Editor & Candy Camera & Grid & ScrapBook', 'Coloring book moana']
+2026-01-06 14:16:28,169 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:16:28,189 | INFO | Processing app | name=Photo Editor & Candy Camera & Grid & ScrapBook | mode=FULL
+2026-01-06 14:16:28,191 | INFO | Score calculated | app=Photo Editor & Candy Camera & Grid & ScrapBook | score=4.79
+2026-01-06 14:16:28,191 | INFO | Processing app | name=Coloring book moana | mode=FULL
+2026-01-06 14:16:28,191 | INFO | Score calculated | app=Coloring book moana | score=4.77
+2026-01-06 14:16:28,192 | INFO | Winner selected: Photo Editor & Candy Camera & Grid & ScrapBook
+2026-01-06 14:16:28,198 | INFO | ANALYTICS called
+2026-01-06 14:16:28,380 | INFO | COMPARE called
+2026-01-06 14:16:28,385 | INFO | Apps received: ['Photo Editor & Candy Camera & Grid & ScrapBook', 'Coloring book moana']
+2026-01-06 14:16:28,386 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:16:28,400 | INFO | Processing app | name=Photo Editor & Candy Camera & Grid & ScrapBook | mode=FULL
+2026-01-06 14:16:28,400 | INFO | Score calculated | app=Photo Editor & Candy Camera & Grid & ScrapBook | score=4.79
+2026-01-06 14:16:28,401 | INFO | Processing app | name=Coloring book moana | mode=FULL
+2026-01-06 14:16:28,402 | INFO | Score calculated | app=Coloring book moana | score=4.77
+2026-01-06 14:16:28,402 | INFO | Winner selected: Photo Editor & Candy Camera & Grid & ScrapBook
+2026-01-06 14:16:28,418 | INFO | ANALYTICS called
+2026-01-06 14:16:37,295 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-06 14:16:37,333 | INFO | SEARCH returned 1 results
+2026-01-06 14:16:48,595 | INFO | SEARCH called | query='' | category='AUTO_AND_VEHICLES'
+2026-01-06 14:16:48,599 | INFO | SEARCH returned 20 results
+2026-01-06 14:17:01,162 | INFO | COMPARE called
+2026-01-06 14:17:01,162 | INFO | Apps received: ['Monster Truck Stunt 3D 2019', 'Real Tractor Farming']
+2026-01-06 14:17:01,162 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:17:01,167 | INFO | Processing app | name=Monster Truck Stunt 3D 2019 | mode=FULL
+2026-01-06 14:17:01,167 | INFO | Score calculated | app=Monster Truck Stunt 3D 2019 | score=4.8
+2026-01-06 14:17:01,169 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 14:17:01,169 | INFO | Score calculated | app=Real Tractor Farming | score=4.78
+2026-01-06 14:17:01,170 | INFO | Winner selected: Monster Truck Stunt 3D 2019
+2026-01-06 14:17:01,179 | INFO | ANALYTICS called
+2026-01-06 14:17:57,800 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-06 14:17:57,833 | INFO | SEARCH returned 1 results
+2026-01-06 14:18:03,552 | INFO | SEARCH called | query='' | category='ART_AND_DESIGN'
+2026-01-06 14:18:03,552 | INFO | SEARCH returned 20 results
+2026-01-06 14:18:14,338 | INFO | COMPARE called
+2026-01-06 14:18:14,338 | INFO | Apps received: ['Photo Editor & Candy Camera & Grid & ScrapBook', 'U Launcher Lite – FREE Live Cool Themes, Hide Apps']
+2026-01-06 14:18:14,339 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:18:14,342 | INFO | Processing app | name=Photo Editor & Candy Camera & Grid & ScrapBook | mode=FULL
+2026-01-06 14:18:14,345 | INFO | Score calculated | app=Photo Editor & Candy Camera & Grid & ScrapBook | score=4.79
+2026-01-06 14:18:14,345 | INFO | Processing app | name=U Launcher Lite – FREE Live Cool Themes, Hide Apps | mode=FULL
+2026-01-06 14:18:14,345 | INFO | Score calculated | app=U Launcher Lite – FREE Live Cool Themes, Hide Apps | score=5.18
+2026-01-06 14:18:14,346 | INFO | Winner selected: U Launcher Lite – FREE Live Cool Themes, Hide Apps
+2026-01-06 14:18:14,353 | INFO | ANALYTICS called
+2026-01-06 14:19:58,151 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-06 14:19:58,187 | INFO | SEARCH returned 1 results
+2026-01-06 14:20:40,867 | INFO | SEARCH called | query='' | category='SHOPPING'
+2026-01-06 14:20:40,877 | INFO | SEARCH returned 20 results
+2026-01-06 14:21:19,527 | INFO | COMPARE called
+2026-01-06 14:21:19,527 | INFO | Apps received: ['Life Made WI-Fi Touchscreen Photo Frame', 'Amazon for Tablets', 'Amazon Shopping', 'Flipp - Weekly Shopping']
+2026-01-06 14:21:19,528 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 10}
+2026-01-06 14:21:19,536 | INFO | Processing app | name=Life Made WI-Fi Touchscreen Photo Frame | mode=FULL
+2026-01-06 14:21:19,538 | INFO | Score calculated | app=Life Made WI-Fi Touchscreen Photo Frame | score=6.86
+2026-01-06 14:21:19,538 | INFO | Processing app | name=Amazon for Tablets | mode=FULL
+2026-01-06 14:21:19,538 | INFO | Score calculated | app=Amazon for Tablets | score=4.8
+2026-01-06 14:21:19,539 | INFO | Processing app | name=Amazon Shopping | mode=FULL
+2026-01-06 14:21:19,539 | INFO | Score calculated | app=Amazon Shopping | score=5.13
+2026-01-06 14:21:19,539 | INFO | Processing app | name=Flipp - Weekly Shopping | mode=FULL
+2026-01-06 14:21:19,539 | INFO | Score calculated | app=Flipp - Weekly Shopping | score=5.16
+2026-01-06 14:21:19,539 | INFO | Winner selected: Life Made WI-Fi Touchscreen Photo Frame
+2026-01-06 14:21:19,549 | INFO | ANALYTICS called
+2026-01-06 14:37:56,379 | INFO | COMPARE called
+2026-01-06 14:37:56,386 | INFO | Apps received: ['Life Made WI-Fi Touchscreen Photo Frame', 'Amazon for Tablets', 'Amazon Shopping', 'Flipp - Weekly Shopping']
+2026-01-06 14:37:56,387 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 10, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 10}
+2026-01-06 14:37:56,539 | INFO | Processing app | name=Life Made WI-Fi Touchscreen Photo Frame | mode=FULL
+2026-01-06 14:37:56,541 | INFO | Score calculated | app=Life Made WI-Fi Touchscreen Photo Frame | score=7.14
+2026-01-06 14:37:56,541 | INFO | Processing app | name=Amazon for Tablets | mode=FULL
+2026-01-06 14:37:56,541 | INFO | Score calculated | app=Amazon for Tablets | score=5.09
+2026-01-06 14:37:56,541 | INFO | Processing app | name=Amazon Shopping | mode=FULL
+2026-01-06 14:37:56,541 | INFO | Score calculated | app=Amazon Shopping | score=5.47
+2026-01-06 14:37:56,541 | INFO | Processing app | name=Flipp - Weekly Shopping | mode=FULL
+2026-01-06 14:37:56,544 | INFO | Score calculated | app=Flipp - Weekly Shopping | score=5.5
+2026-01-06 14:37:56,544 | INFO | Winner selected: Life Made WI-Fi Touchscreen Photo Frame
+2026-01-06 14:37:56,555 | INFO | ANALYTICS called
+2026-01-06 14:43:32,803 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-06 14:43:32,818 | INFO | SEARCH returned 1 results
+2026-01-06 14:43:39,648 | INFO | SEARCH called | query='' | category='BOOKS_AND_REFERENCE'
+2026-01-06 14:43:39,653 | INFO | SEARCH returned 20 results
+2026-01-06 14:44:07,399 | INFO | COMPARE called
+2026-01-06 14:44:07,590 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:44:07,609 | INFO | Processing app | name=E-Book Read - Read Book for free | mode=FULL
+2026-01-06 14:44:07,609 | INFO | Score calculated | app=E-Book Read - Read Book for free | score=5.16
+2026-01-06 14:44:07,609 | INFO | Processing app | name=Wikipedia | mode=FULL
+2026-01-06 14:44:07,610 | INFO | Score calculated | app=Wikipedia | score=5.15
+2026-01-06 14:44:07,625 | INFO | ANALYTICS called
+2026-01-06 14:44:10,005 | INFO | COMPARE called
+2026-01-06 14:44:10,033 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:44:10,071 | INFO | Processing app | name=E-Book Read - Read Book for free | mode=FULL
+2026-01-06 14:44:10,071 | INFO | Score calculated | app=E-Book Read - Read Book for free | score=5.16
+2026-01-06 14:44:10,073 | INFO | Processing app | name=Wikipedia | mode=FULL
+2026-01-06 14:44:10,073 | INFO | Score calculated | app=Wikipedia | score=5.15
+2026-01-06 14:44:10,093 | INFO | ANALYTICS called
+2026-01-06 14:44:10,193 | INFO | COMPARE called
+2026-01-06 14:44:10,195 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:44:10,214 | INFO | Processing app | name=E-Book Read - Read Book for free | mode=FULL
+2026-01-06 14:44:10,216 | INFO | Score calculated | app=E-Book Read - Read Book for free | score=5.16
+2026-01-06 14:44:10,216 | INFO | Processing app | name=Wikipedia | mode=FULL
+2026-01-06 14:44:10,218 | INFO | Score calculated | app=Wikipedia | score=5.15
+2026-01-06 14:44:10,234 | INFO | ANALYTICS called
+2026-01-06 14:44:10,379 | INFO | COMPARE called
+2026-01-06 14:44:10,386 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:44:10,420 | INFO | Processing app | name=E-Book Read - Read Book for free | mode=FULL
+2026-01-06 14:44:10,421 | INFO | Score calculated | app=E-Book Read - Read Book for free | score=5.16
+2026-01-06 14:44:10,423 | INFO | Processing app | name=Wikipedia | mode=FULL
+2026-01-06 14:44:10,423 | INFO | Score calculated | app=Wikipedia | score=5.15
+2026-01-06 14:44:10,439 | INFO | ANALYTICS called
+2026-01-06 14:44:10,540 | INFO | COMPARE called
+2026-01-06 14:44:10,543 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:44:10,562 | INFO | Processing app | name=E-Book Read - Read Book for free | mode=FULL
+2026-01-06 14:44:10,562 | INFO | Score calculated | app=E-Book Read - Read Book for free | score=5.16
+2026-01-06 14:44:10,563 | INFO | Processing app | name=Wikipedia | mode=FULL
+2026-01-06 14:44:10,563 | INFO | Score calculated | app=Wikipedia | score=5.15
+2026-01-06 14:44:10,576 | INFO | ANALYTICS called
+2026-01-06 14:44:10,709 | INFO | COMPARE called
+2026-01-06 14:44:10,713 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:44:10,735 | INFO | Processing app | name=E-Book Read - Read Book for free | mode=FULL
+2026-01-06 14:44:10,737 | INFO | Score calculated | app=E-Book Read - Read Book for free | score=5.16
+2026-01-06 14:44:10,737 | INFO | Processing app | name=Wikipedia | mode=FULL
+2026-01-06 14:44:10,738 | INFO | Score calculated | app=Wikipedia | score=5.15
+2026-01-06 14:44:10,748 | INFO | ANALYTICS called
+2026-01-06 14:44:10,867 | INFO | COMPARE called
+2026-01-06 14:44:10,887 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:44:10,903 | INFO | Processing app | name=E-Book Read - Read Book for free | mode=FULL
+2026-01-06 14:44:10,903 | INFO | Score calculated | app=E-Book Read - Read Book for free | score=5.16
+2026-01-06 14:44:10,904 | INFO | Processing app | name=Wikipedia | mode=FULL
+2026-01-06 14:44:10,904 | INFO | Score calculated | app=Wikipedia | score=5.15
+2026-01-06 14:44:10,916 | INFO | ANALYTICS called
+2026-01-06 14:44:11,066 | INFO | COMPARE called
+2026-01-06 14:44:11,074 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:44:11,122 | INFO | Processing app | name=E-Book Read - Read Book for free | mode=FULL
+2026-01-06 14:44:11,122 | INFO | Score calculated | app=E-Book Read - Read Book for free | score=5.16
+2026-01-06 14:44:11,122 | INFO | Processing app | name=Wikipedia | mode=FULL
+2026-01-06 14:44:11,122 | INFO | Score calculated | app=Wikipedia | score=5.15
+2026-01-06 14:44:11,140 | INFO | ANALYTICS called
+2026-01-06 14:44:35,467 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-06 14:44:35,485 | INFO | SEARCH returned 1 results
+2026-01-06 14:44:39,511 | INFO | SEARCH called | query='' | category='HEALTH_AND_FITNESS'
+2026-01-06 14:44:39,514 | INFO | SEARCH returned 20 results
+2026-01-06 14:44:50,433 | INFO | COMPARE called
+2026-01-06 14:44:50,434 | INFO | Apps received: ['Home Workout - No Equipment', 'Step Counter - Calorie Counter']
+2026-01-06 14:44:50,434 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:44:50,438 | INFO | Processing app | name=Home Workout - No Equipment | mode=FULL
+2026-01-06 14:44:50,438 | INFO | Score calculated | app=Home Workout - No Equipment | score=5.52
+2026-01-06 14:44:50,438 | INFO | Processing app | name=Step Counter - Calorie Counter | mode=FULL
+2026-01-06 14:44:50,439 | INFO | Score calculated | app=Step Counter - Calorie Counter | score=4.78
+2026-01-06 14:44:50,439 | INFO | Winner selected: Home Workout - No Equipment
+2026-01-06 14:44:50,448 | INFO | ANALYTICS called
+2026-01-06 14:45:48,903 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-06 14:45:48,949 | INFO | SEARCH returned 1 results
+2026-01-06 14:45:51,351 | INFO | SEARCH called | query='' | category='FOOD_AND_DRINK'
+2026-01-06 14:45:51,354 | INFO | SEARCH returned 20 results
+2026-01-06 14:46:08,902 | INFO | COMPARE called
+2026-01-06 14:46:08,902 | INFO | Apps received: ["McDonald's", 'Pastry & Cooking (Without Net)']
+2026-01-06 14:46:08,904 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 14:46:08,919 | INFO | Processing app | name=McDonald's | mode=FULL
+2026-01-06 14:46:08,919 | INFO | Score calculated | app=McDonald's | score=4.41
+2026-01-06 14:46:08,919 | INFO | Processing app | name=Pastry & Cooking (Without Net) | mode=FULL
+2026-01-06 14:46:08,919 | INFO | Score calculated | app=Pastry & Cooking (Without Net) | score=5.18
+2026-01-06 14:46:08,921 | INFO | Winner selected: Pastry & Cooking (Without Net)
+2026-01-06 14:46:08,934 | INFO | ANALYTICS called
+2026-01-06 14:49:59,500 | INFO | SEARCH called | query='' | category='MAPS_AND_NAVIGATION'
+2026-01-06 15:05:20,691 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-06 15:05:20,722 | INFO | SEARCH returned 1 results
+2026-01-06 15:05:25,137 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-06 15:05:25,283 | INFO | SEARCH returned 1 results
+2026-01-06 15:05:27,979 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-06 15:05:27,982 | INFO | SEARCH returned 1 results
+2026-01-06 15:05:29,811 | INFO | SEARCH called | query='' | category='AUTO_AND_VEHICLES'
+2026-01-06 15:05:29,914 | INFO | SEARCH returned 20 results
+2026-01-06 15:05:37,028 | INFO | COMPARE called
+2026-01-06 15:05:37,028 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:05:37,030 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:05:37,475 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:05:37,521 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:05:37,521 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:05:37,521 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:05:37,521 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:05:37,558 | INFO | ANALYTICS called
+2026-01-06 15:07:22,730 | INFO | COMPARE called
+2026-01-06 15:07:22,731 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:22,731 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:22,761 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:22,763 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:22,771 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:22,773 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:22,774 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:22,787 | INFO | ANALYTICS called
+2026-01-06 15:07:31,540 | INFO | COMPARE called
+2026-01-06 15:07:31,540 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:31,542 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:31,551 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:31,552 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:31,554 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:31,554 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:31,556 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:31,577 | INFO | ANALYTICS called
+2026-01-06 15:07:31,854 | INFO | COMPARE called
+2026-01-06 15:07:31,854 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:31,854 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:31,861 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:31,862 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:31,864 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:31,865 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:31,868 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:31,889 | INFO | ANALYTICS called
+2026-01-06 15:07:32,132 | INFO | COMPARE called
+2026-01-06 15:07:32,133 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:32,134 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:32,143 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:32,145 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:32,145 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:32,145 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:32,146 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:32,159 | INFO | ANALYTICS called
+2026-01-06 15:07:32,339 | INFO | COMPARE called
+2026-01-06 15:07:32,339 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:32,340 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:32,348 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:32,348 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:32,350 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:32,353 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:32,354 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:32,365 | INFO | ANALYTICS called
+2026-01-06 15:07:32,491 | INFO | COMPARE called
+2026-01-06 15:07:32,493 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:32,493 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:32,504 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:32,504 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:32,504 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:32,506 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:32,506 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:32,520 | INFO | ANALYTICS called
+2026-01-06 15:07:32,652 | INFO | COMPARE called
+2026-01-06 15:07:32,654 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:32,656 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:32,674 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:32,676 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:32,679 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:32,680 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:32,684 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:32,696 | INFO | ANALYTICS called
+2026-01-06 15:07:32,814 | INFO | COMPARE called
+2026-01-06 15:07:32,821 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:32,823 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:32,836 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:32,853 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:32,854 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:32,854 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:32,854 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:32,863 | INFO | ANALYTICS called
+2026-01-06 15:07:32,963 | INFO | COMPARE called
+2026-01-06 15:07:32,964 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:32,964 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:32,975 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:32,975 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:32,977 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:32,977 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:32,977 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:32,988 | INFO | ANALYTICS called
+2026-01-06 15:07:33,180 | INFO | COMPARE called
+2026-01-06 15:07:33,181 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:33,182 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:33,204 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:33,206 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:33,207 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:33,208 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:33,209 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:33,222 | INFO | ANALYTICS called
+2026-01-06 15:07:33,442 | INFO | COMPARE called
+2026-01-06 15:07:33,443 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:33,444 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:33,457 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:33,459 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:33,459 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:33,460 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:33,460 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:33,473 | INFO | ANALYTICS called
+2026-01-06 15:07:33,589 | INFO | COMPARE called
+2026-01-06 15:07:33,591 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:33,591 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:33,611 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:33,618 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:33,621 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:33,622 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:33,622 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:33,634 | INFO | ANALYTICS called
+2026-01-06 15:07:33,807 | INFO | COMPARE called
+2026-01-06 15:07:33,820 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:33,821 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:33,847 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:33,847 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:33,848 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:33,852 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:33,853 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:33,860 | INFO | ANALYTICS called
+2026-01-06 15:07:34,118 | INFO | COMPARE called
+2026-01-06 15:07:34,119 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:34,119 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:34,126 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:34,127 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:34,127 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:34,128 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:34,129 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:34,146 | INFO | ANALYTICS called
+2026-01-06 15:07:34,379 | INFO | COMPARE called
+2026-01-06 15:07:34,379 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:34,379 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:34,439 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:34,446 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:34,447 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:34,447 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:34,448 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:34,459 | INFO | ANALYTICS called
+2026-01-06 15:07:34,541 | INFO | COMPARE called
+2026-01-06 15:07:34,545 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:34,555 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:34,564 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:34,564 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:34,565 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:34,565 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:34,580 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:34,596 | INFO | ANALYTICS called
+2026-01-06 15:07:34,739 | INFO | COMPARE called
+2026-01-06 15:07:34,740 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:34,741 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:34,754 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:34,755 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:34,756 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:34,756 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:34,757 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:34,776 | INFO | ANALYTICS called
+2026-01-06 15:07:35,050 | INFO | COMPARE called
+2026-01-06 15:07:35,052 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:35,053 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:35,062 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:35,063 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:35,063 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:35,063 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:35,063 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:35,169 | INFO | ANALYTICS called
+2026-01-06 15:07:35,517 | INFO | COMPARE called
+2026-01-06 15:07:35,519 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:35,520 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:35,526 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:35,526 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:35,527 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:35,527 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:35,527 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:35,536 | INFO | ANALYTICS called
+2026-01-06 15:07:35,937 | INFO | COMPARE called
+2026-01-06 15:07:35,938 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:35,938 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:35,956 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:35,962 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:35,971 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:35,971 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:35,971 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:35,985 | INFO | ANALYTICS called
+2026-01-06 15:07:36,112 | INFO | COMPARE called
+2026-01-06 15:07:36,112 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:36,112 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:36,120 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:36,122 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:36,123 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:36,123 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:36,125 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:36,137 | INFO | ANALYTICS called
+2026-01-06 15:07:36,341 | INFO | COMPARE called
+2026-01-06 15:07:36,341 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:36,342 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:36,358 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:36,362 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:36,364 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:36,370 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:36,375 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:36,392 | INFO | ANALYTICS called
+2026-01-06 15:07:36,653 | INFO | COMPARE called
+2026-01-06 15:07:36,653 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:36,654 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:36,658 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:36,660 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:36,660 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:36,661 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:36,661 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:36,674 | INFO | ANALYTICS called
+2026-01-06 15:07:37,051 | INFO | COMPARE called
+2026-01-06 15:07:37,052 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:37,052 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:37,062 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:37,062 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:37,065 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:37,067 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:37,068 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:37,080 | INFO | ANALYTICS called
+2026-01-06 15:07:37,245 | INFO | COMPARE called
+2026-01-06 15:07:37,245 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:37,245 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:37,254 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:37,254 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:37,256 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:37,256 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:37,256 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:37,270 | INFO | ANALYTICS called
+2026-01-06 15:07:37,391 | INFO | COMPARE called
+2026-01-06 15:07:37,391 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:37,392 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:37,397 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:37,397 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:37,397 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:37,398 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:37,398 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:37,423 | INFO | ANALYTICS called
+2026-01-06 15:07:37,558 | INFO | COMPARE called
+2026-01-06 15:07:37,558 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:37,559 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:37,565 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:37,566 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:37,570 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:37,570 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:37,571 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:37,581 | INFO | ANALYTICS called
+2026-01-06 15:07:37,736 | INFO | COMPARE called
+2026-01-06 15:07:37,738 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:37,741 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:37,758 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:37,759 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:37,762 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:37,763 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:37,772 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:37,792 | INFO | ANALYTICS called
+2026-01-06 15:07:37,889 | INFO | COMPARE called
+2026-01-06 15:07:37,908 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:37,909 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:37,947 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:37,979 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:37,995 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:38,019 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:38,025 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:38,064 | INFO | ANALYTICS called
+2026-01-06 15:07:38,131 | INFO | COMPARE called
+2026-01-06 15:07:38,140 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:38,148 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:38,180 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:38,194 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:38,195 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:38,234 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:38,240 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:38,246 | INFO | COMPARE called
+2026-01-06 15:07:38,248 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:38,260 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:38,261 | INFO | ANALYTICS called
+2026-01-06 15:07:38,279 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:38,318 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:38,345 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:38,351 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:38,387 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:38,406 | INFO | ANALYTICS called
+2026-01-06 15:07:38,454 | INFO | COMPARE called
+2026-01-06 15:07:38,475 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:38,482 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:38,520 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:38,530 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:38,531 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:38,620 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:38,620 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:38,628 | INFO | ANALYTICS called
+2026-01-06 15:07:38,779 | INFO | COMPARE called
+2026-01-06 15:07:38,781 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:38,793 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:38,903 | INFO | COMPARE called
+2026-01-06 15:07:38,909 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:38,909 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:38,912 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:38,913 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:38,915 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:38,924 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:38,942 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:38,945 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:38,947 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:38,955 | INFO | ANALYTICS called
+2026-01-06 15:07:38,957 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:39,013 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:39,029 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:39,115 | INFO | ANALYTICS called
+2026-01-06 15:07:39,134 | INFO | COMPARE called
+2026-01-06 15:07:39,162 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:39,173 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:39,228 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:39,228 | INFO | COMPARE called
+2026-01-06 15:07:39,229 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:39,230 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:39,235 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:39,236 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:39,246 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:39,254 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:39,276 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:39,277 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:39,278 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:39,281 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:39,288 | INFO | ANALYTICS called
+2026-01-06 15:07:39,288 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:39,374 | INFO | ANALYTICS called
+2026-01-06 15:07:39,429 | INFO | COMPARE called
+2026-01-06 15:07:39,431 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:39,442 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:39,475 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:39,480 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:39,481 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:39,486 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:39,489 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:39,501 | INFO | ANALYTICS called
+2026-01-06 15:07:39,543 | INFO | COMPARE called
+2026-01-06 15:07:39,579 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:39,590 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:39,613 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:39,613 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:39,629 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:39,642 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:39,643 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:39,664 | INFO | ANALYTICS called
+2026-01-06 15:07:39,696 | INFO | COMPARE called
+2026-01-06 15:07:39,719 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:39,734 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:39,795 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:39,799 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:39,811 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:39,832 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:39,839 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:39,859 | INFO | ANALYTICS called
+2026-01-06 15:07:39,975 | INFO | COMPARE called
+2026-01-06 15:07:39,985 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:39,988 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:40,015 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:40,015 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:40,046 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:40,046 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:40,047 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:40,056 | INFO | ANALYTICS called
+2026-01-06 15:07:40,190 | INFO | COMPARE called
+2026-01-06 15:07:40,190 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:40,191 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:07:40,199 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:07:40,199 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:07:40,203 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:07:40,204 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:07:40,209 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:07:40,240 | INFO | ANALYTICS called
+2026-01-06 15:07:59,908 | INFO | COMPARE called
+2026-01-06 15:07:59,908 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:07:59,910 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:08:00,212 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:08:00,212 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:08:00,212 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:08:00,212 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:08:00,213 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:08:00,223 | INFO | ANALYTICS called
+2026-01-06 15:09:41,519 | INFO | COMPARE called
+2026-01-06 15:09:41,521 | INFO | Apps received: ['Ultimate F1 Racing Championship', 'Real Tractor Farming']
+2026-01-06 15:09:41,521 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-06 15:09:41,650 | INFO | Processing app | name=Ultimate F1 Racing Championship | mode=FULL
+2026-01-06 15:09:41,651 | INFO | Score calculated | app=Ultimate F1 Racing Championship | score=4.65
+2026-01-06 15:09:41,651 | INFO | Processing app | name=Real Tractor Farming | mode=FULL
+2026-01-06 15:09:41,651 | INFO | Score calculated | app=Real Tractor Farming | score=4.67
+2026-01-06 15:09:41,651 | INFO | Winner selected: Real Tractor Farming
+2026-01-06 15:09:41,902 | INFO | ANALYTICS called
+2026-01-06 15:10:14,285 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-06 15:10:14,305 | INFO | SEARCH returned 1 results
+2026-01-06 15:10:21,322 | INFO | SEARCH called | query='' | category='COMMUNICATION'
+2026-01-06 15:10:21,331 | INFO | SEARCH returned 20 results
+2026-01-06 15:10:32,721 | INFO | SEARCH called | query='' | category='COMMUNICATION'
+2026-01-06 15:10:32,726 | INFO | SEARCH returned 20 results
+2026-01-06 15:10:34,580 | INFO | SEARCH called | query='' | category='COMMUNICATION'
+2026-01-06 15:10:34,583 | INFO | SEARCH returned 20 results
+2026-01-06 15:10:53,324 | INFO | COMPARE called
+2026-01-06 15:10:53,324 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free']
+2026-01-06 15:10:53,334 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 10}
+2026-01-06 15:10:53,339 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 15:10:53,339 | INFO | Score calculated | app=WhatsApp Messenger | score=5.63
+2026-01-06 15:10:53,341 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 15:10:53,341 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.29
+2026-01-06 15:10:53,341 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 15:10:53,350 | INFO | ANALYTICS called
+2026-01-06 15:11:31,023 | INFO | SEARCH called | query='' | category='VIDEO_PLAYERS'
+2026-01-06 15:11:31,029 | INFO | SEARCH returned 20 results
+2026-01-06 15:12:08,961 | INFO | COMPARE called
+2026-01-06 15:12:08,961 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free', 'YouTube', 'VLC for Android']
+2026-01-06 15:12:08,961 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 10}
+2026-01-06 15:12:08,966 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 15:12:08,966 | INFO | Score calculated | app=WhatsApp Messenger | score=5.63
+2026-01-06 15:12:08,966 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 15:12:08,967 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.29
+2026-01-06 15:12:08,967 | INFO | Processing app | name=YouTube | mode=FULL
+2026-01-06 15:12:08,967 | INFO | Score calculated | app=YouTube | score=5.03
+2026-01-06 15:12:08,967 | INFO | Processing app | name=VLC for Android | mode=FULL
+2026-01-06 15:12:08,967 | INFO | Score calculated | app=VLC for Android | score=5.04
+2026-01-06 15:12:08,967 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 15:12:08,975 | INFO | ANALYTICS called
+2026-01-06 15:12:11,990 | INFO | COMPARE called
+2026-01-06 15:12:11,991 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free', 'YouTube', 'VLC for Android']
+2026-01-06 15:12:11,991 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 10}
+2026-01-06 15:12:11,994 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 15:12:11,995 | INFO | Score calculated | app=WhatsApp Messenger | score=5.63
+2026-01-06 15:12:11,996 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 15:12:11,996 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.29
+2026-01-06 15:12:11,996 | INFO | Processing app | name=YouTube | mode=FULL
+2026-01-06 15:12:11,996 | INFO | Score calculated | app=YouTube | score=5.03
+2026-01-06 15:12:11,997 | INFO | Processing app | name=VLC for Android | mode=FULL
+2026-01-06 15:12:11,998 | INFO | Score calculated | app=VLC for Android | score=5.04
+2026-01-06 15:12:11,999 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 15:12:12,004 | INFO | ANALYTICS called
+2026-01-06 15:12:14,890 | INFO | COMPARE called
+2026-01-06 15:12:14,891 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free', 'YouTube', 'VLC for Android']
+2026-01-06 15:12:14,891 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 10}
+2026-01-06 15:12:14,896 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 15:12:14,896 | INFO | Score calculated | app=WhatsApp Messenger | score=5.63
+2026-01-06 15:12:14,896 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 15:12:14,897 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.29
+2026-01-06 15:12:14,898 | INFO | Processing app | name=YouTube | mode=FULL
+2026-01-06 15:12:14,899 | INFO | Score calculated | app=YouTube | score=5.03
+2026-01-06 15:12:14,899 | INFO | Processing app | name=VLC for Android | mode=FULL
+2026-01-06 15:12:14,899 | INFO | Score calculated | app=VLC for Android | score=5.04
+2026-01-06 15:12:14,899 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 15:12:14,905 | INFO | ANALYTICS called
+2026-01-06 15:12:21,858 | INFO | COMPARE called
+2026-01-06 15:12:21,858 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free', 'YouTube', 'VLC for Android']
+2026-01-06 15:12:21,859 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 10}
+2026-01-06 15:12:21,862 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 15:12:21,862 | INFO | Score calculated | app=WhatsApp Messenger | score=5.63
+2026-01-06 15:12:21,862 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 15:12:21,862 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.29
+2026-01-06 15:12:21,862 | INFO | Processing app | name=YouTube | mode=FULL
+2026-01-06 15:12:21,864 | INFO | Score calculated | app=YouTube | score=5.03
+2026-01-06 15:12:21,865 | INFO | Processing app | name=VLC for Android | mode=FULL
+2026-01-06 15:12:21,866 | INFO | Score calculated | app=VLC for Android | score=5.04
+2026-01-06 15:12:21,866 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 15:12:21,872 | INFO | ANALYTICS called
+2026-01-06 15:12:24,474 | INFO | COMPARE called
+2026-01-06 15:12:24,474 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free', 'YouTube', 'VLC for Android']
+2026-01-06 15:12:24,476 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 6}
+2026-01-06 15:12:24,479 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 15:12:24,479 | INFO | Score calculated | app=WhatsApp Messenger | score=5.68
+2026-01-06 15:12:24,479 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 15:12:24,480 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.32
+2026-01-06 15:12:24,480 | INFO | Processing app | name=YouTube | mode=FULL
+2026-01-06 15:12:24,480 | INFO | Score calculated | app=YouTube | score=5.03
+2026-01-06 15:12:24,480 | INFO | Processing app | name=VLC for Android | mode=FULL
+2026-01-06 15:12:24,480 | INFO | Score calculated | app=VLC for Android | score=5.04
+2026-01-06 15:12:24,480 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 15:12:24,486 | INFO | ANALYTICS called
+2026-01-06 15:12:27,207 | INFO | COMPARE called
+2026-01-06 15:12:27,208 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free', 'YouTube', 'VLC for Android']
+2026-01-06 15:12:27,208 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 6}
+2026-01-06 15:12:27,211 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 15:12:27,211 | INFO | Score calculated | app=WhatsApp Messenger | score=5.68
+2026-01-06 15:12:27,212 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 15:12:27,212 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.32
+2026-01-06 15:12:27,212 | INFO | Processing app | name=YouTube | mode=FULL
+2026-01-06 15:12:27,213 | INFO | Score calculated | app=YouTube | score=5.03
+2026-01-06 15:12:27,213 | INFO | Processing app | name=VLC for Android | mode=FULL
+2026-01-06 15:12:27,213 | INFO | Score calculated | app=VLC for Android | score=5.04
+2026-01-06 15:12:27,213 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 15:12:27,221 | INFO | ANALYTICS called
+2026-01-06 15:12:27,606 | INFO | COMPARE called
+2026-01-06 15:12:27,606 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free', 'YouTube', 'VLC for Android']
+2026-01-06 15:12:27,607 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 6}
+2026-01-06 15:12:27,612 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 15:12:27,612 | INFO | Score calculated | app=WhatsApp Messenger | score=5.68
+2026-01-06 15:12:27,612 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 15:12:27,612 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.32
+2026-01-06 15:12:27,613 | INFO | Processing app | name=YouTube | mode=FULL
+2026-01-06 15:12:27,613 | INFO | Score calculated | app=YouTube | score=5.03
+2026-01-06 15:12:27,613 | INFO | Processing app | name=VLC for Android | mode=FULL
+2026-01-06 15:12:27,613 | INFO | Score calculated | app=VLC for Android | score=5.04
+2026-01-06 15:12:27,613 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 15:12:27,619 | INFO | ANALYTICS called
+2026-01-06 15:12:27,745 | INFO | COMPARE called
+2026-01-06 15:12:27,745 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free', 'YouTube', 'VLC for Android']
+2026-01-06 15:12:27,745 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 6}
+2026-01-06 15:12:27,751 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 15:12:27,752 | INFO | Score calculated | app=WhatsApp Messenger | score=5.68
+2026-01-06 15:12:27,752 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 15:12:27,752 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.32
+2026-01-06 15:12:27,753 | INFO | Processing app | name=YouTube | mode=FULL
+2026-01-06 15:12:27,753 | INFO | Score calculated | app=YouTube | score=5.03
+2026-01-06 15:12:27,753 | INFO | Processing app | name=VLC for Android | mode=FULL
+2026-01-06 15:12:27,754 | INFO | Score calculated | app=VLC for Android | score=5.04
+2026-01-06 15:12:27,754 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 15:12:27,759 | INFO | ANALYTICS called
+2026-01-06 15:12:27,900 | INFO | COMPARE called
+2026-01-06 15:12:27,900 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free', 'YouTube', 'VLC for Android']
+2026-01-06 15:12:27,900 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 6}
+2026-01-06 15:12:27,903 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 15:12:27,904 | INFO | Score calculated | app=WhatsApp Messenger | score=5.68
+2026-01-06 15:12:27,904 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 15:12:27,904 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.32
+2026-01-06 15:12:27,905 | INFO | Processing app | name=YouTube | mode=FULL
+2026-01-06 15:12:27,905 | INFO | Score calculated | app=YouTube | score=5.03
+2026-01-06 15:12:27,905 | INFO | Processing app | name=VLC for Android | mode=FULL
+2026-01-06 15:12:27,905 | INFO | Score calculated | app=VLC for Android | score=5.04
+2026-01-06 15:12:27,905 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 15:12:27,910 | INFO | ANALYTICS called
+2026-01-06 15:12:28,053 | INFO | COMPARE called
+2026-01-06 15:12:28,054 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free', 'YouTube', 'VLC for Android']
+2026-01-06 15:12:28,054 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 6}
+2026-01-06 15:12:28,059 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 15:12:28,059 | INFO | Score calculated | app=WhatsApp Messenger | score=5.68
+2026-01-06 15:12:28,061 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 15:12:28,061 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.32
+2026-01-06 15:12:28,061 | INFO | Processing app | name=YouTube | mode=FULL
+2026-01-06 15:12:28,062 | INFO | Score calculated | app=YouTube | score=5.03
+2026-01-06 15:12:28,062 | INFO | Processing app | name=VLC for Android | mode=FULL
+2026-01-06 15:12:28,062 | INFO | Score calculated | app=VLC for Android | score=5.04
+2026-01-06 15:12:28,062 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 15:12:28,068 | INFO | ANALYTICS called
+2026-01-06 15:12:28,178 | INFO | COMPARE called
+2026-01-06 15:12:28,178 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free', 'YouTube', 'VLC for Android']
+2026-01-06 15:12:28,179 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 6}
+2026-01-06 15:12:28,184 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 15:12:28,184 | INFO | Score calculated | app=WhatsApp Messenger | score=5.68
+2026-01-06 15:12:28,184 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 15:12:28,186 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.32
+2026-01-06 15:12:28,186 | INFO | Processing app | name=YouTube | mode=FULL
+2026-01-06 15:12:28,186 | INFO | Score calculated | app=YouTube | score=5.03
+2026-01-06 15:12:28,186 | INFO | Processing app | name=VLC for Android | mode=FULL
+2026-01-06 15:12:28,187 | INFO | Score calculated | app=VLC for Android | score=5.04
+2026-01-06 15:12:28,187 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 15:12:28,192 | INFO | ANALYTICS called
+2026-01-06 15:13:31,852 | INFO | VALIDATE called | appName=https://play.google.com/store/search?q=netflix&c=apps
+2026-01-06 15:13:31,858 | INFO | App NOT found in dataset | https://play.google.com/store/search?q=netflix&c=apps
+2026-01-06 15:13:42,446 | INFO | COMPARE called
+2026-01-06 15:13:42,447 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free', 'YouTube', 'VLC for Android', 'https://play.google.com/store/search?q=netflix&c=apps']
+2026-01-06 15:13:42,447 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 6}
+2026-01-06 15:13:42,453 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 15:13:42,453 | INFO | Score calculated | app=WhatsApp Messenger | score=5.68
+2026-01-06 15:13:42,453 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 15:13:42,454 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.32
+2026-01-06 15:13:42,454 | INFO | Processing app | name=YouTube | mode=FULL
+2026-01-06 15:13:42,454 | INFO | Score calculated | app=YouTube | score=5.03
+2026-01-06 15:13:42,454 | INFO | Processing app | name=VLC for Android | mode=FULL
+2026-01-06 15:13:42,456 | INFO | Score calculated | app=VLC for Android | score=5.04
+2026-01-06 15:13:42,456 | INFO | Processing app | name=https://play.google.com/store/search?q=netflix&c=apps | mode=PARTIAL
+2026-01-06 15:13:42,456 | WARNING | PARTIAL comparison | external app used: https://play.google.com/store/search?q=netflix&c=apps
+2026-01-06 15:13:42,457 | INFO | Score calculated | app=https://play.google.com/store/search?q=netflix&c=apps | score=2.25
+2026-01-06 15:13:42,457 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 15:13:42,462 | INFO | ANALYTICS called
+2026-01-06 15:13:56,866 | INFO | COMPARE called
+2026-01-06 15:13:56,866 | INFO | Apps received: ['WhatsApp Messenger', 'Messenger – Text and Video Chat for Free', 'YouTube', 'VLC for Android', 'https://play.google.com/store/search?q=netflix&c=apps']
+2026-01-06 15:13:56,868 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 6}
+2026-01-06 15:13:56,873 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-06 15:13:56,873 | INFO | Score calculated | app=WhatsApp Messenger | score=5.68
+2026-01-06 15:13:56,873 | INFO | Processing app | name=Messenger – Text and Video Chat for Free | mode=FULL
+2026-01-06 15:13:56,873 | INFO | Score calculated | app=Messenger – Text and Video Chat for Free | score=5.32
+2026-01-06 15:13:56,875 | INFO | Processing app | name=YouTube | mode=FULL
+2026-01-06 15:13:56,875 | INFO | Score calculated | app=YouTube | score=5.03
+2026-01-06 15:13:56,875 | INFO | Processing app | name=VLC for Android | mode=FULL
+2026-01-06 15:13:56,876 | INFO | Score calculated | app=VLC for Android | score=5.04
+2026-01-06 15:13:56,876 | INFO | Processing app | name=https://play.google.com/store/search?q=netflix&c=apps | mode=PARTIAL
+2026-01-06 15:13:56,876 | WARNING | PARTIAL comparison | external app used: https://play.google.com/store/search?q=netflix&c=apps
+2026-01-06 15:13:56,876 | INFO | Score calculated | app=https://play.google.com/store/search?q=netflix&c=apps | score=2.25
+2026-01-06 15:13:56,877 | INFO | Winner selected: WhatsApp Messenger
+2026-01-06 15:13:56,887 | INFO | ANALYTICS called
