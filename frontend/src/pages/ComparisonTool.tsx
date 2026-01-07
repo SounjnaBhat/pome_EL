@@ -32,6 +32,9 @@ interface DatasetApp {
   rating: number;
   price_inr: number;
   price_type: string;
+  ai_reason?: string;
+  ai_rank?: number;
+  selection_method?: string;
 }
 
 interface UserPreferences {
@@ -99,12 +102,24 @@ interface AnalyticsRegionalEntry {
   dominance: AnalyticsFDIEntry[];
 }
 
+interface GraphOutputs {
+  feature_contributions: { [appName: string]: { [feature: string]: number } };
+  dominance_vs_popularity: Array<{
+    app_name: string;
+    dominance_index: number;
+    popularity_score: number;
+  }>;
+  confusion_by_category: { [category: string]: number };
+}
+
 interface AnalyticsResponse {
   fdi: AnalyticsFDIEntry[];
   consumerConfusion: number;
   scenarios: AnalyticsScenarioRanking[];
   explainability: AnalyticsExplainability[];
   regionalAsymmetry: AnalyticsRegionalEntry[];
+  aiOverview?: string;
+  graphOutputs?: GraphOutputs;
 }
 
 const BACKEND_URL = 'http://127.0.0.1:8000';
@@ -180,13 +195,25 @@ export default function ComparisonTool() {
     if (!selectedCountry || !selectedCategory) return;
 
     try {
-      // Browse apps straight from the CSV dataset via backend search
+      // Browse apps using Gemini-powered intelligent selection
       const params = new URLSearchParams();
       params.set('query', '');
       params.set('category', selectedCategory);
+      params.set('use_intelligent_selection', 'true'); // Explicitly enable Gemini selection
 
+      console.log('Loading apps with Gemini intelligent selection for category:', selectedCategory);
       const response = await fetch(`${BACKEND_URL}/api/apps/search?${params.toString()}`);
       const appsData: DatasetApp[] = await response.json();
+      
+      // Log selection method for verification
+      const geminiApps = appsData.filter(app => app.selection_method === 'gemini');
+      const traditionalApps = appsData.filter(app => app.selection_method === 'traditional');
+      console.log(`Apps loaded: ${appsData.length} total | ${geminiApps.length} Gemini-selected | ${traditionalApps.length} Traditional`);
+      
+      if (geminiApps.length > 0) {
+        console.log('Gemini-selected apps:', geminiApps.map(a => a.app_name));
+      }
+      
       setApps(appsData);
     } catch (error) {
       console.error('Error loading apps:', error);
@@ -291,8 +318,8 @@ export default function ComparisonTool() {
       });
 
       const compareData: {
-        winner: { app: string; mode: 'FULL' | 'PARTIAL'; score: number };
-        results: { app: string; mode: 'FULL' | 'PARTIAL'; score: number }[];
+        winner: { app: string; mode: 'FULL' | 'PARTIAL'; score: number; popularity?: number };
+        results: { app: string; mode: 'FULL' | 'PARTIAL'; score: number; popularity?: number }[];
       } = await compareResponse.json();
 
       // 2) Advanced analytics (FDI, CCS, scenarios, explainability, regional)
@@ -333,7 +360,18 @@ export default function ComparisonTool() {
         (analyticsData.explainability || []).map((e) => [e.app.toLowerCase(), e])
       );
 
-      const scores: AppScore[] = compareData.results.map((r) => {
+      // Apply popularity-aware ordering: sort by score first, then by popularity for ties
+      const sortedResults = [...compareData.results].sort((a, b) => {
+        if (Math.abs(a.score - b.score) < 0.1) {
+          // If scores are very close (within 0.1), use popularity as tiebreaker
+          const popA = a.popularity || 0;
+          const popB = b.popularity || 0;
+          return popB - popA;
+        }
+        return b.score - a.score;
+      });
+
+      const scores: AppScore[] = sortedResults.map((r) => {
         const explain = explainMap.get(r.app.toLowerCase());
         const breakdown: { [key: string]: number } = {};
         const attributesUsed: string[] = [];
@@ -554,7 +592,14 @@ export default function ComparisonTool() {
               </div>
 
               <div className="border-t pt-6">
-                <h3 className="text-sm font-semibold text-gray-900 mb-4">Browse Available Apps:</h3>
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-sm font-semibold text-gray-900">Browse Available Apps:</h3>
+                  {apps.length > 0 && apps[0].selection_method === 'gemini' && (
+                    <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded-full font-medium">
+                      AI-Selected
+                    </span>
+                  )}
+                </div>
                 <div className="grid md:grid-cols-2 gap-4">
                   {apps.map((app) => (
                     <button
@@ -568,8 +613,18 @@ export default function ComparisonTool() {
                     >
                       <div className="flex items-start justify-between">
                         <div className="flex-1">
+                          <div className="flex items-center gap-2 mb-1">
                             <h3 className="font-semibold text-gray-900">{app.app_name}</h3>
+                            {app.ai_rank && (
+                              <span className="text-xs bg-purple-100 text-purple-700 px-1.5 py-0.5 rounded font-medium">
+                                #{app.ai_rank}
+                              </span>
+                            )}
+                          </div>
                           <p className="text-sm text-gray-600 mb-2">{app.developer}</p>
+                          {app.ai_reason && (
+                            <p className="text-xs text-blue-600 mb-2 italic">{app.ai_reason}</p>
+                          )}
                           <div className="flex items-center gap-4 text-sm">
                             <span className="flex items-center text-yellow-600">
                               <Star className="w-4 h-4 mr-1 fill-current" />
@@ -714,6 +769,18 @@ export default function ComparisonTool() {
                 className="text-lg text-green-50 leading-relaxed"
                 dangerouslySetInnerHTML={{ __html: getRecommendationText() }}
               />
+              {analytics?.aiOverview && (
+                <div className="mt-6 pt-6 border-t border-green-500">
+                  <div className="flex items-center gap-2 mb-3">
+                    <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
+                    <h3 className="text-xl font-semibold">AI-Powered Analysis</h3>
+                    <span className="text-xs bg-blue-500/30 text-blue-100 px-2 py-1 rounded-full font-medium">
+                      Gemini AI
+                    </span>
+                  </div>
+                  <p className="text-base text-green-50 leading-relaxed">{analytics.aiOverview}</p>
+                </div>
+              )}
             </div>
 
             <div>
@@ -815,6 +882,22 @@ export default function ComparisonTool() {
                           </p>
                         )}
                       </div>
+
+                      {/* Gemini-powered detailed comparison */}
+                      {analytics?.detailedComparisons?.[scored.appName] && (
+                        <div className="mt-4 pt-4 border-t border-gray-200">
+                          <div className="flex items-center gap-2 mb-2">
+                            <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
+                            <h4 className="text-sm font-semibold text-gray-900">AI-Powered Insights</h4>
+                            <span className="text-xs bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full font-medium">
+                              Gemini AI
+                            </span>
+                          </div>
+                          <p className="text-sm text-gray-700 leading-relaxed">
+                            {analytics.detailedComparisons[scored.appName]}
+                          </p>
+                        </div>
+                      )}
                     </div>
                   </div>
                 ))}
@@ -967,6 +1050,99 @@ export default function ComparisonTool() {
                     );
                   })()}
                 </div>
+
+                {analytics?.graphOutputs && (
+                  <div className="bg-white rounded-xl shadow-lg p-6">
+                    <div className="flex items-center justify-between mb-4">
+                      <h3 className="text-2xl font-bold text-gray-900 flex items-center">
+                        <TrendingUp className="w-6 h-6 mr-2 text-green-600" />
+                        Graph-Ready Outputs (Academic Figures)
+                      </h3>
+                      <span className="text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full font-medium">
+                        Publication Ready
+                      </span>
+                    </div>
+                    <p className="text-sm text-gray-600 mb-4">
+                      Structured data suitable for generating charts and figures in academic papers.
+                    </p>
+                    
+                    <div className="space-y-6">
+                      <div>
+                        <h4 className="text-lg font-semibold text-gray-900 mb-3">Feature Contribution Breakdown</h4>
+                        <div className="overflow-x-auto">
+                          <table className="min-w-full text-sm">
+                            <thead>
+                              <tr className="border-b">
+                                <th className="text-left py-2 pr-4 font-semibold text-gray-700">App</th>
+                                {Object.keys(analytics.graphOutputs.feature_contributions[Object.keys(analytics.graphOutputs.feature_contributions)[0]] || {}).map((feat) => (
+                                  <th key={feat} className="text-left py-2 pr-4 font-semibold text-gray-700">
+                                    {feat.replace(/([A-Z])/g, ' $1').trim()} (%)
+                                  </th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {Object.entries(analytics.graphOutputs.feature_contributions).map(([appName, contributions]) => (
+                                <tr key={appName} className="border-b last:border-0">
+                                  <td className="py-2 pr-4 text-gray-900 font-medium">{appName}</td>
+                                  {Object.entries(contributions).map(([feat, pct]) => (
+                                    <td key={feat} className="py-2 pr-4 text-gray-800">{pct.toFixed(1)}%</td>
+                                  ))}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+
+                      <div>
+                        <h4 className="text-lg font-semibold text-gray-900 mb-3">Dominance vs Popularity</h4>
+                        <div className="overflow-x-auto">
+                          <table className="min-w-full text-sm">
+                            <thead>
+                              <tr className="border-b">
+                                <th className="text-left py-2 pr-4 font-semibold text-gray-700">App</th>
+                                <th className="text-left py-2 pr-4 font-semibold text-gray-700">Dominance Index</th>
+                                <th className="text-left py-2 pr-4 font-semibold text-gray-700">Popularity Score</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {analytics.graphOutputs.dominance_vs_popularity.map((entry) => (
+                                <tr key={entry.app_name} className="border-b last:border-0">
+                                  <td className="py-2 pr-4 text-gray-900 font-medium">{entry.app_name}</td>
+                                  <td className="py-2 pr-4 text-gray-800">{entry.dominance_index.toFixed(4)}</td>
+                                  <td className="py-2 pr-4 text-gray-800">{entry.popularity_score.toFixed(2)}</td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+
+                      <div>
+                        <h4 className="text-lg font-semibold text-gray-900 mb-3">Confusion Score by Category</h4>
+                        <div className="overflow-x-auto">
+                          <table className="min-w-full text-sm">
+                            <thead>
+                              <tr className="border-b">
+                                <th className="text-left py-2 pr-4 font-semibold text-gray-700">Category</th>
+                                <th className="text-left py-2 pr-4 font-semibold text-gray-700">Confusion Score</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {Object.entries(analytics.graphOutputs.confusion_by_category).map(([category, score]) => (
+                                <tr key={category} className="border-b last:border-0">
+                                  <td className="py-2 pr-4 text-gray-900 font-medium">{category}</td>
+                                  <td className="py-2 pr-4 text-gray-800">{score.toFixed(4)}</td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
 
                 <div className="bg-white rounded-xl shadow-lg p-6">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">
