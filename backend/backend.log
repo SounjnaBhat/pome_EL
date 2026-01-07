@@ -889,3 +889,139 @@
 2026-01-06 15:13:56,876 | INFO | Score calculated | app=https://play.google.com/store/search?q=netflix&c=apps | score=2.25
 2026-01-06 15:13:56,877 | INFO | Winner selected: WhatsApp Messenger
 2026-01-06 15:13:56,887 | INFO | ANALYTICS called
+2026-01-07 17:53:20,637 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-07 17:53:20,661 | INFO | SEARCH returned 1 results
+2026-01-07 17:53:27,753 | INFO | SEARCH called | query='' | category='COMMUNICATION'
+2026-01-07 17:53:27,760 | INFO | SEARCH returned 20 results
+2026-01-07 17:54:20,187 | INFO | SEARCH called | query='' | category='FOOD_AND_DRINK'
+2026-01-07 17:54:20,390 | INFO | SEARCH returned 20 results
+2026-01-07 17:54:28,655 | INFO | SEARCH called | query='' | category='Education'
+2026-01-07 17:54:28,692 | INFO | SEARCH returned 3 results
+2026-01-07 17:54:48,566 | INFO | COMPARE called
+2026-01-07 17:54:48,570 | INFO | Apps received: ['WhatsApp Messenger', 'Coursera', 'Khan Academy']
+2026-01-07 17:54:48,571 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-07 17:54:48,617 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-07 17:54:48,623 | INFO | Score calculated | app=WhatsApp Messenger | score=5.7
+2026-01-07 17:54:48,625 | INFO | Processing app | name=Coursera | mode=FULL
+2026-01-07 17:54:48,626 | INFO | Score calculated | app=Coursera | score=5.74
+2026-01-07 17:54:48,627 | INFO | Processing app | name=Khan Academy | mode=FULL
+2026-01-07 17:54:48,628 | INFO | Score calculated | app=Khan Academy | score=5.07
+2026-01-07 17:54:48,628 | INFO | Winner selected: Coursera
+2026-01-07 17:54:48,663 | INFO | ANALYTICS called
+2026-01-07 17:55:00,473 | INFO | COMPARE called
+2026-01-07 17:55:00,475 | INFO | Apps received: ['WhatsApp Messenger', 'Coursera', 'Khan Academy']
+2026-01-07 17:55:00,477 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-07 17:55:00,504 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-07 17:55:00,515 | INFO | Score calculated | app=WhatsApp Messenger | score=5.7
+2026-01-07 17:55:00,521 | INFO | Processing app | name=Coursera | mode=FULL
+2026-01-07 17:55:00,529 | INFO | Score calculated | app=Coursera | score=5.74
+2026-01-07 17:55:00,542 | INFO | Processing app | name=Khan Academy | mode=FULL
+2026-01-07 17:55:00,548 | INFO | Score calculated | app=Khan Academy | score=5.07
+2026-01-07 17:55:00,559 | INFO | Winner selected: Coursera
+2026-01-07 17:55:00,579 | INFO | ANALYTICS called
+2026-01-07 19:01:33,532 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-07 19:01:33,551 | INFO | SEARCH returned 1 results
+2026-01-07 19:26:18,682 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-07 19:26:19,536 | INFO | SEARCH returned 1 results
+2026-01-07 19:26:19,551 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-07 19:26:19,562 | INFO | SEARCH returned 1 results
+2026-01-07 19:26:19,587 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-07 19:26:19,599 | INFO | SEARCH returned 1 results
+2026-01-07 19:26:30,049 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-07 19:26:30,053 | INFO | SEARCH returned 1 results
+2026-01-07 19:26:35,635 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-07 19:26:35,639 | INFO | SEARCH returned 1 results
+2026-01-07 19:26:37,760 | INFO | SEARCH called | query='' | category='EVENTS'
+2026-01-07 19:26:37,772 | INFO | SEARCH returned 20 results
+2026-01-07 19:26:46,564 | INFO | SEARCH called | query='' | category='COMMUNICATION'
+2026-01-07 19:26:46,581 | INFO | SEARCH returned 20 results
+2026-01-07 19:33:36,742 | INFO | COMPARE called
+2026-01-07 19:33:36,748 | INFO | Apps received: ['WhatsApp Messenger', 'Contacts']
+2026-01-07 19:33:36,748 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-07 19:33:36,899 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-07 19:33:39,226 | INFO | COMPARE called
+2026-01-07 19:33:39,226 | INFO | Apps received: ['WhatsApp Messenger', 'Contacts']
+2026-01-07 19:33:39,226 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-07 19:33:39,250 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-07 19:33:40,886 | INFO | COMPARE called
+2026-01-07 19:33:40,886 | INFO | Apps received: ['WhatsApp Messenger', 'Contacts']
+2026-01-07 19:33:40,886 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-07 19:33:40,894 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-07 19:33:44,420 | INFO | COMPARE called
+2026-01-07 19:33:44,421 | INFO | Apps received: ['WhatsApp Messenger', 'Contacts']
+2026-01-07 19:33:44,423 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-07 19:33:44,473 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-07 19:34:06,994 | INFO | COMPARE called
+2026-01-07 19:34:06,995 | INFO | Apps received: ['WhatsApp Messenger', 'Contacts']
+2026-01-07 19:34:06,996 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-07 19:34:07,153 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-07 19:34:08,824 | INFO | COMPARE called
+2026-01-07 19:34:08,825 | INFO | Apps received: ['WhatsApp Messenger', 'Contacts']
+2026-01-07 19:34:08,825 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-07 19:34:08,838 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-07 19:36:02,014 | INFO | COMPARE called
+2026-01-07 19:36:02,015 | INFO | Apps received: ['WhatsApp Messenger', 'Contacts']
+2026-01-07 19:36:02,015 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 5}
+2026-01-07 19:36:02,150 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-07 19:36:02,151 | INFO | Score calculated | app=WhatsApp Messenger | score=5.7 | popularity=6.4
+2026-01-07 19:36:02,152 | INFO | Processing app | name=Contacts | mode=FULL
+2026-01-07 19:36:02,152 | INFO | Score calculated | app=Contacts | score=5.68 | popularity=6.3
+2026-01-07 19:36:02,152 | INFO | Winner selected: WhatsApp Messenger
+2026-01-07 19:36:02,175 | INFO | ANALYTICS called
+2026-01-07 19:36:20,142 | INFO | COMPARE called
+2026-01-07 19:36:20,143 | INFO | Apps received: ['WhatsApp Messenger', 'Contacts']
+2026-01-07 19:36:20,143 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 5, 'privacy': 10}
+2026-01-07 19:36:20,146 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-07 19:36:20,147 | INFO | Score calculated | app=WhatsApp Messenger | score=5.63 | popularity=6.4
+2026-01-07 19:36:20,147 | INFO | Processing app | name=Contacts | mode=FULL
+2026-01-07 19:36:20,147 | INFO | Score calculated | app=Contacts | score=5.62 | popularity=6.3
+2026-01-07 19:36:20,149 | INFO | Winner selected: WhatsApp Messenger
+2026-01-07 19:36:20,153 | INFO | ANALYTICS called
+2026-01-07 19:36:25,641 | INFO | COMPARE called
+2026-01-07 19:36:25,642 | INFO | Apps received: ['WhatsApp Messenger', 'Contacts']
+2026-01-07 19:36:25,642 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 10, 'privacy': 10}
+2026-01-07 19:36:25,646 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-07 19:36:25,646 | INFO | Score calculated | app=WhatsApp Messenger | score=5.57 | popularity=6.4
+2026-01-07 19:36:25,646 | INFO | Processing app | name=Contacts | mode=FULL
+2026-01-07 19:36:25,646 | INFO | Score calculated | app=Contacts | score=5.56 | popularity=6.3
+2026-01-07 19:36:25,647 | INFO | Winner selected: WhatsApp Messenger
+2026-01-07 19:36:25,659 | INFO | ANALYTICS called
+2026-01-07 19:36:40,693 | INFO | COMPARE called
+2026-01-07 19:36:40,693 | INFO | Apps received: ['Contacts', 'Google Chrome: Fast & Secure']
+2026-01-07 19:36:40,693 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 10, 'privacy': 10}
+2026-01-07 19:36:40,697 | INFO | Processing app | name=Contacts | mode=FULL
+2026-01-07 19:36:40,697 | INFO | Score calculated | app=Contacts | score=5.56 | popularity=6.3
+2026-01-07 19:36:40,697 | INFO | Processing app | name=Google Chrome: Fast & Secure | mode=FULL
+2026-01-07 19:36:40,697 | INFO | Score calculated | app=Google Chrome: Fast & Secure | score=5.56 | popularity=6.3
+2026-01-07 19:36:40,698 | INFO | Winner selected: Contacts
+2026-01-07 19:36:40,701 | INFO | ANALYTICS called
+2026-01-07 19:37:21,728 | INFO | COMPARE called
+2026-01-07 19:37:21,729 | INFO | Apps received: ['WhatsApp Messenger', 'Gmail']
+2026-01-07 19:37:21,730 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 10, 'privacy': 10}
+2026-01-07 19:37:21,734 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-07 19:37:21,735 | INFO | Score calculated | app=WhatsApp Messenger | score=5.57 | popularity=6.4
+2026-01-07 19:37:21,735 | INFO | Processing app | name=Gmail | mode=FULL
+2026-01-07 19:37:21,735 | INFO | Score calculated | app=Gmail | score=5.56 | popularity=6.3
+2026-01-07 19:37:21,736 | INFO | Winner selected: WhatsApp Messenger
+2026-01-07 19:37:21,741 | INFO | ANALYTICS called
+2026-01-07 19:37:25,502 | INFO | COMPARE called
+2026-01-07 19:37:25,504 | INFO | Apps received: ['WhatsApp Messenger', 'Gmail']
+2026-01-07 19:37:25,504 | INFO | Preferences: {'rating': 5, 'price': 5, 'featureRichness': 5, 'easeOfUse': 5, 'performance': 5, 'serviceIntegration': 6, 'customization': 5, 'supportQuality': 10, 'privacy': 10}
+2026-01-07 19:37:25,507 | INFO | Processing app | name=WhatsApp Messenger | mode=FULL
+2026-01-07 19:37:25,507 | INFO | Score calculated | app=WhatsApp Messenger | score=5.57 | popularity=6.4
+2026-01-07 19:37:25,509 | INFO | Processing app | name=Gmail | mode=FULL
+2026-01-07 19:37:25,510 | INFO | Score calculated | app=Gmail | score=5.56 | popularity=6.3
+2026-01-07 19:37:25,510 | INFO | Winner selected: WhatsApp Messenger
+2026-01-07 19:37:25,517 | INFO | ANALYTICS called
+2026-01-07 20:30:54,464 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-07 20:30:54,475 | INFO | SEARCH returned 1 results
+2026-01-07 20:30:58,912 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-07 20:30:58,918 | INFO | SEARCH returned 1 results
+2026-01-07 20:31:02,366 | INFO | SEARCH called | query='' | category='BUSINESS'
+2026-01-07 20:31:02,380 | INFO | SEARCH returned 20 results
+2026-01-07 20:31:07,225 | INFO | SEARCH called | query='' | category='COMMUNICATION'
+2026-01-07 20:31:07,234 | INFO | SEARCH returned 20 results
+2026-01-07 20:42:51,744 | INFO | SEARCH called | query='' | category='1.9'
+2026-01-07 20:42:51,761 | INFO | SEARCH returned 1 results
+2026-01-07 20:42:59,908 | INFO | SEARCH called | query='' | category='COMMUNICATION'
+2026-01-07 20:42:59,920 | INFO | SEARCH returned 20 results
